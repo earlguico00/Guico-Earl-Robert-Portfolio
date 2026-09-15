@@ -1,3 +1,26 @@
+/* ============================================================
+   WORK ITEMS
+   ------------------------------------------------------------
+   VIDEO ENTRIES ARE NOW HOSTED ON GOOGLE DRIVE.
+   Nothing bigger than a thumbnail lives in this repo any more.
+
+   For each video entry, fill in:
+
+     driveId — the long ID from the Drive share link. Given
+               https://drive.google.com/file/d/1A2b3C4dEfGhIjK/view?usp=sharing
+               the ID is  1A2b3C4dEfGhIjK
+
+     poster  — OPTIONAL. Path to a local thumbnail, e.g. "img/thumb-lamp.jpg".
+               Leave it as "" and the card falls back to Drive's own
+               auto-generated thumbnail. Local posters are more reliable
+               and load faster, so use them for the videos that matter most.
+
+   Every file must be shared as "Anyone with the link — Viewer",
+   otherwise both the thumbnail and the player come back blank.
+
+   The original filename is left as a comment at the end of each
+   line so you can tell which Drive upload belongs where.
+   ============================================================ */
 const WORK_ITEMS = [
 
   { category: "logos", type: "image", src: "img/sbu-logo.jpg", caption: "SBU College of Accountancy and Business Logo", aspect: "16 / 9" },
@@ -5,19 +28,19 @@ const WORK_ITEMS = [
   { category: "logos", type: "image", src: "img/past-feature.jpg", caption: "#PastAndFeature", aspect: "16 / 9" },
   { category: "logos", type: "image", src: "img/inflaties-gents.jpg", caption: "Inflaties & Gents Logo", aspect: "16 / 9" },
 
-  { category: "video",   type: "video", src: "video/video/FORGE OUTRO (16_9) (1).mp4", caption: "Social Media Outro", aspect: "16 / 9", subcategory: "organizational" },
-  { category: "video",   type: "video", src: "video/video/LAMP 2025 HIGHLIGHTS FINAL.mp4", caption: "LAMP 2025 Event Highlights", aspect: "16 / 9", subcategory: "organizational" },
-  { category: "video",   type: "video", src: "video/video/FORGE TERM ENDER d7.mp4", caption: "SBJMA Forge Term Ender", aspect: "16 / 9", subcategory: "organizational" },
-  { category: "video",   type: "video", src: "video/video/integration posting.mp4", caption: "Integration Week Entry", aspect: "16 / 9", subcategory: "organizational" },
-  { category: "video",   type: "video", src: "video/video/ANIMATION OUTPUT.mp4", caption: "PAST TERM ORGANIZATIONS", aspect: "4 / 5", subcategory: "organizational" },
-  { category: "video",   type: "video", src: "video/video/midterm exam goodluck message.mp4", caption: "Midterm Exam Good Luck Post", aspect: "4 / 5", subcategory: "organizational" },
-  { category: "video",   type: "video", src: "video/video/TOP ONE Professional Organization.mp4", caption: "Top One Congratulatory Post", aspect: "4 / 5", subcategory: "organizational" },
-  { category: "video",   type: "video", src: "video/video/NINOY AQUINO.mp4", caption: "Ninoy Aquino Holiday Pubmat", aspect: "4 / 5", subcategory: "organizational" },
-  { category: "video",   type: "video", src: "video/video/GMM 2024 _ Guest Speakers.mp4", caption: "GMM 2024 - Guest Speakers", aspect: "9 / 16", subcategory: "organizational" },
-  { category: "video",   type: "video", src: "video/video/SportsFest2026.mp4", caption: "SportsFest 2026 Congratulatory Post", aspect: "9 / 16", subcategory: "organizational" },
-  { category: "video",   type: "video", src: "video/video/SCHOOL PROJECT_SVEN PROMO VIDEO.mp4", caption: "SCHOOL PROJECT #1", aspect: "16 / 9", subcategory: "academic" },
-  { category: "video",   type: "video", src: "video/video/WHAT IS ADCON D2.mp4", caption: "What is ADCON 2026?", aspect: "16 / 9", subcategory: "academic" },
-  { category: "video",   type: "video", src: "video/video/mad marls.mp4", caption: "MAD MARKS PROMOTIONAL", aspect: "9 / 16", subcategory: "academic" },
+  { category: "video",   type: "video", driveId: "1u-FJgG8JRrzZaPawGrStUH2AUdnBI_VV", poster: "", caption: "Social Media Outro", aspect: "16 / 9", subcategory: "organizational" },  // FORGE OUTRO (16_9) (1).mp4
+  { category: "video",   type: "video", driveId: "", poster: "", caption: "LAMP 2025 Event Highlights", aspect: "16 / 9", subcategory: "organizational" },  // LAMP 2025 HIGHLIGHTS FINAL.mp4
+  { category: "video",   type: "video", driveId: "", poster: "", caption: "SBJMA Forge Term Ender", aspect: "16 / 9", subcategory: "organizational" },  // FORGE TERM ENDER d7.mp4
+  { category: "video",   type: "video", driveId: "", poster: "", caption: "Integration Week Entry", aspect: "16 / 9", subcategory: "organizational" },  // integration posting.mp4
+  { category: "video",   type: "video", driveId: "", poster: "", caption: "PAST TERM ORGANIZATIONS", aspect: "4 / 5", subcategory: "organizational" },  // ANIMATION OUTPUT.mp4
+  { category: "video",   type: "video", driveId: "", poster: "", caption: "Midterm Exam Good Luck Post", aspect: "4 / 5", subcategory: "organizational" },  // midterm exam goodluck message.mp4
+  { category: "video",   type: "video", driveId: "", poster: "", caption: "Top One Congratulatory Post", aspect: "4 / 5", subcategory: "organizational" },  // TOP ONE Professional Organization.mp4
+  { category: "video",   type: "video", driveId: "", poster: "", caption: "Ninoy Aquino Holiday Pubmat", aspect: "4 / 5", subcategory: "organizational" },  // NINOY AQUINO.mp4
+  { category: "video",   type: "video", driveId: "", poster: "", caption: "GMM 2024 - Guest Speakers", aspect: "9 / 16", subcategory: "organizational" },  // GMM 2024 _ Guest Speakers.mp4
+  { category: "video",   type: "video", driveId: "", poster: "", caption: "SportsFest 2026 Congratulatory Post", aspect: "9 / 16", subcategory: "organizational" },  // SportsFest2026.mp4
+  { category: "video",   type: "video", driveId: "", poster: "", caption: "SCHOOL PROJECT #1", aspect: "16 / 9", subcategory: "academic" },  // SCHOOL PROJECT_SVEN PROMO VIDEO.mp4
+  { category: "video",   type: "video", driveId: "", poster: "", caption: "What is ADCON 2026?", aspect: "16 / 9", subcategory: "academic" },  // WHAT IS ADCON D2.mp4
+  { category: "video",   type: "video", driveId: "", poster: "", caption: "MAD MARKS PROMOTIONAL", aspect: "9 / 16", subcategory: "academic" },  // mad marls.mp4
   
   { category: "poster", type: "image", src: "img/(TOP 1) BEEDAZLE POSTER COMPETITION.png", caption: "Top 1 Poster Competition", aspect: "5 / 5" },
   { category: "poster", type: "image", src: "img/1.jpg", caption: "SBU @125 University Concert", aspect: "5 / 5" },
@@ -32,7 +55,7 @@ const WORK_ITEMS = [
   { category: "poster", type: "image", src: "img/red smashers 1.png", caption: "NCAA 101 Red Smashers Congratulatory Post 1", aspect: "5 / 5" },
   { category: "poster", type: "image", src: "img/5(1).png", caption: "NCAA 101 Red Smashers Congratulatory Post 2", aspect: "5 / 5" },
   { category: "poster", type: "image", src: "img/6.png", caption: "NCAA 101 Wood Pushers Congratulatory Post", aspect: "5 / 5" },
-  { category: "poster", type: "image", src: "img/1(1).png", caption: "Peso 2023: What's Your Power-Up?", aspect: "5 / 5" },
+  { category: "poster", type: "image", src: "img/1.png", caption: "Peso 2023: What's Your Power-Up?", aspect: "5 / 5" },
   { category: "poster", type: "image", src: "img/2(1).png", caption: "Peso 2023: What's Your Power-Up? (Super Star)", aspect: "5 / 5" },
   { category: "poster", type: "image", src: "img/3.png", caption: "Peso 2023: What's Your Power-Up? (Mega Mushroom)", aspect: "5 / 5" },
   { category: "poster", type: "image", src: "img/4 (1).png", caption: "Peso 2023: What's Your Power-Up? (Ice Flower)", aspect: "5 / 5" },
@@ -64,6 +87,32 @@ function isPortrait(aspect){
   return h > w;
 }
 
+// ============================================================
+// Google Drive helpers
+// Two different Drive endpoints are used, and they are not
+// interchangeable:
+//   - /thumbnail  returns a still JPEG, cheap, fine in an <img>
+//   - /preview    returns Drive's own player, must go in an <iframe>
+// The old "uc?export=download" direct-file trick is deliberately NOT
+// used: Drive interrupts it with a virus-scan warning page for files
+// this size, so a <video src> pointed at it just fails silently.
+// ============================================================
+function drivePosterURL(id){
+  return `https://drive.google.com/thumbnail?id=${id}&sz=w1200`;
+}
+
+function driveEmbedURL(id){
+  return `https://drive.google.com/file/d/${id}/preview`;
+}
+
+// the white circular play button layered over a video poster
+function createPlayBadge(){
+  const badge = document.createElement('span');
+  badge.className = 'play-badge';
+  badge.innerHTML = `<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.2v13.6a.8.8 0 0 0 1.22.68l11.05-6.8a.8.8 0 0 0 0-1.36L9.22 4.52A.8.8 0 0 0 8 5.2z"/></svg>`;
+  return badge;
+}
+
 // builds a single gallery card for one WORK_ITEMS entry
 function createCard(item, i){
   const card = document.createElement('article');
@@ -91,25 +140,49 @@ function createCard(item, i){
   if (item.type === 'video'){
     media.classList.add('card-media--video');
 
-    const video = document.createElement('video');
-    video.src = encodeURI(item.src);
-    video.muted = true;       // stays muted while sitting idle in the grid
-    video.loop = true;
-    video.playsInline = true;
-    video.preload = 'metadata';
-    video.addEventListener('error', () => {
-      console.error('Video failed to load:', item.src, video.error);
-    });
+    if (item.driveId){
+      // Drive-hosted: the grid only holds a poster image. Streaming a
+      // dozen Drive iframes at once would be unusably slow, so the real
+      // player is built on demand when the card is clicked.
+      const poster = document.createElement('img');
+      poster.className = 'video-poster';
+      poster.alt = item.caption;
+      poster.loading = 'lazy';
+      poster.src = item.poster ? encodeURI(item.poster) : drivePosterURL(item.driveId);
 
-    // autoplay a muted, looping preview in the grid until it's opened fullscreen
-    video.addEventListener('loadedmetadata', () => {
-      video.play().catch(() => {}); // ignore if the browser blocks autoplay
-    });
+      // a Drive thumbnail comes back broken if the file isn't shared
+      // publicly, is still being processed, or Drive is rate-limiting —
+      // drop the broken image and leave the tinted placeholder box
+      poster.addEventListener('error', () => {
+        poster.remove();
+        media.classList.add('is-posterless');
+      });
 
-    // clicking anywhere on the card opens the video fullscreen
-    media.addEventListener('click', () => openVideoFullscreen(video, media));
+      media.appendChild(poster);
+      media.appendChild(createPlayBadge());
+      media.addEventListener('click', () => openDriveVideo(item));
 
-    media.appendChild(video);
+    } else if (item.src){
+      // fallback: still supports a video committed to the repo, for any
+      // clip small enough that it doesn't need to live on Drive
+      const video = document.createElement('video');
+      video.src = encodeURI(item.src);
+      video.muted = true;       // stays muted while sitting idle in the grid
+      video.loop = true;
+      video.playsInline = true;
+      video.preload = 'metadata';
+      video.addEventListener('error', () => {
+        console.error('Video failed to load:', item.src, video.error);
+      });
+
+      // autoplay a muted, looping preview in the grid until it's opened fullscreen
+      video.addEventListener('loadedmetadata', () => {
+        video.play().catch(() => {}); // ignore if the browser blocks autoplay
+      });
+
+      media.addEventListener('click', () => openVideoFullscreen(video, media, item.aspect));
+      media.appendChild(video);
+    }
   } else {
     const img = document.createElement('img');
     img.src = item.src;
@@ -383,13 +456,64 @@ const overlayStage = videoOverlay.querySelector('.video-overlay-stage');
 const minimizeBtn = videoOverlay.querySelector('.minimize-btn');
 
 let activeVideo = null;
-let activeHome = null; // the .card-media--video the video came from
+let activeHome = null;          // the .card-media--video a local video came from
+let activeAspect = '16 / 9';    // aspect of whatever is currently open
 
-function openVideoFullscreen(video, homeMedia){
+// An <iframe> carries no intrinsic size the way a <video> does, so the
+// stage has to be measured against the viewport by hand. Without this a
+// 9/16 reel would be sized off the window *width* and run straight off
+// the bottom of the screen.
+function sizeOverlayStage(aspect){
+  const parts = String(aspect || '16 / 9').split('/').map(n => parseFloat(n));
+  const aw = parts[0] || 16;
+  const ah = parts[1] || 9;
+
+  const maxW = window.innerWidth  * 0.94;
+  const maxH = window.innerHeight * 0.90;
+
+  let w = maxW;
+  let h = w * (ah / aw);
+  if (h > maxH){
+    h = maxH;
+    w = h * (aw / ah);
+  }
+
+  overlayStage.style.width  = `${Math.round(w)}px`;
+  overlayStage.style.height = `${Math.round(h)}px`;
+}
+
+function showOverlay(aspect){
+  activeAspect = aspect || '16 / 9';
+  sizeOverlayStage(activeAspect);
+  videoOverlay.classList.add('is-open');
+  document.body.style.overflow = 'hidden';
+}
+
+// Drive-hosted video: build the player iframe fresh each time. It gets
+// destroyed again on close, which is also how playback is stopped —
+// there's no JS handle on the video inside a cross-origin Drive frame,
+// so removing the frame is the only way to make the audio stop.
+function openDriveVideo(item){
+  overlayStage.innerHTML = '';
+
+  const frame = document.createElement('iframe');
+  frame.src = driveEmbedURL(item.driveId);
+  frame.title = item.caption;
+  frame.allow = 'autoplay; fullscreen';
+  frame.allowFullscreen = true;
+  overlayStage.appendChild(frame);
+
+  showOverlay(item.aspect);
+}
+
+// locally-hosted video: move the real element into the overlay so
+// playback carries over, then move it home again on close
+function openVideoFullscreen(video, homeMedia, aspect){
   activeVideo = video;
   activeHome = homeMedia;
 
   homeMedia.classList.add('is-playing'); // hides that card's play button while it's away
+  overlayStage.innerHTML = '';
   overlayStage.appendChild(video);
   video.muted = false;
   video.controls = true;                 // adds play/pause, seek bar, and a volume slider
@@ -397,25 +521,32 @@ function openVideoFullscreen(video, homeMedia){
   video.disablePictureInPicture = true;
   video.play();
 
-  videoOverlay.classList.add('is-open');
-  document.body.style.overflow = 'hidden';
+  showOverlay(aspect);
 }
 
 function closeVideoFullscreen(){
-  if (!activeVideo) return;
+  if (!videoOverlay.classList.contains('is-open')) return;
 
-  activeVideo.controls = false;          // keep the small grid preview clean, no controls
-  activeVideo.muted = true;
-  activeHome.appendChild(activeVideo);
-  activeHome.classList.remove('is-playing');
-  activeVideo.play().catch(() => {}); // resume the muted loop preview in the grid
+  if (activeVideo){
+    activeVideo.controls = false;        // keep the small grid preview clean, no controls
+    activeVideo.muted = true;
+    activeHome.appendChild(activeVideo);
+    activeHome.classList.remove('is-playing');
+    activeVideo.play().catch(() => {});  // resume the muted loop preview in the grid
+    activeVideo = null;
+    activeHome = null;
+  }
+
+  overlayStage.innerHTML = '';           // tears down the Drive iframe -> stops playback
 
   videoOverlay.classList.remove('is-open');
   document.body.style.overflow = '';
-
-  activeVideo = null;
-  activeHome = null;
 }
+
+// keep the stage correctly sized if the window changes while open
+window.addEventListener('resize', () => {
+  if (videoOverlay.classList.contains('is-open')) sizeOverlayStage(activeAspect);
+});
 
 minimizeBtn.addEventListener('click', closeVideoFullscreen);
 
