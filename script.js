@@ -29,18 +29,18 @@ const WORK_ITEMS = [
   { category: "logos", type: "image", src: "img/inflaties-gents.jpg", caption: "Inflaties & Gents Logo", aspect: "16 / 9" },
 
   { category: "video",   type: "video", driveId: "1u-FJgG8JRrzZaPawGrStUH2AUdnBI_VV", poster: "", caption: "Social Media Outro", aspect: "16 / 9", subcategory: "organizational" }, //ANIMATION OUTPUT.mp4
-  { category: "video",   type: "video", driveId: "", poster: "", caption: "LAMP 2025 Event Highlights", aspect: "16 / 9", subcategory: "organizational" },  // LAMP 2025 HIGHLIGHTS FINAL.mp4
-  { category: "video",   type: "video", driveId: "", poster: "", caption: "SBJMA Forge Term Ender", aspect: "16 / 9", subcategory: "organizational" },  // FORGE TERM ENDER d7.mp4
-  { category: "video",   type: "video", driveId: "", poster: "", caption: "Integration Week Entry", aspect: "16 / 9", subcategory: "organizational" },  // integration posting.mp4
-  { category: "video",   type: "video", driveId: "", poster: "", caption: "PAST TERM ORGANIZATIONS", aspect: "4 / 5", subcategory: "organizational" },  // ANIMATION OUTPUT.mp4
-  { category: "video",   type: "video", driveId: "", poster: "", caption: "Midterm Exam Good Luck Post", aspect: "4 / 5", subcategory: "organizational" },  // midterm exam goodluck message.mp4
-  { category: "video",   type: "video", driveId: "", poster: "", caption: "Top One Congratulatory Post", aspect: "4 / 5", subcategory: "organizational" },  // TOP ONE Professional Organization.mp4
-  { category: "video",   type: "video", driveId: "", poster: "", caption: "Ninoy Aquino Holiday Pubmat", aspect: "4 / 5", subcategory: "organizational" },  // NINOY AQUINO.mp4
-  { category: "video",   type: "video", driveId: "", poster: "", caption: "GMM 2024 - Guest Speakers", aspect: "9 / 16", subcategory: "organizational" },  // GMM 2024 _ Guest Speakers.mp4
-  { category: "video",   type: "video", driveId: "", poster: "", caption: "SportsFest 2026 Congratulatory Post", aspect: "9 / 16", subcategory: "organizational" },  // SportsFest2026.mp4
-  { category: "video",   type: "video", driveId: "", poster: "", caption: "SCHOOL PROJECT #1", aspect: "16 / 9", subcategory: "academic" },  // SCHOOL PROJECT_SVEN PROMO VIDEO.mp4
-  { category: "video",   type: "video", driveId: "", poster: "", caption: "What is ADCON 2026?", aspect: "16 / 9", subcategory: "academic" },  // WHAT IS ADCON D2.mp4
-  { category: "video",   type: "video", driveId: "", poster: "", caption: "MAD MARKS PROMOTIONAL", aspect: "9 / 16", subcategory: "academic" },  // mad marls.mp4
+  { category: "video",   type: "video", driveId: "1AhiqcRvy-s-CHCGvJ0DLT_vP9aKzFTW3", poster: "", caption: "LAMP 2025 Event Highlights", aspect: "16 / 9", subcategory: "organizational" },  // LAMP 2025 HIGHLIGHTS FINAL.mp4
+  { category: "video",   type: "video", driveId: "1Eqpx1kL9JnmGtErZmw9ic4Gp3505vzz8", poster: "", caption: "SBJMA Forge Term Ender", aspect: "16 / 9", subcategory: "organizational" },  // FORGE TERM ENDER d7.mp4
+  { category: "video",   type: "video", driveId: "1qP5lrxsbX1T3AuHLex_lXn7tc36ps5Wr", poster: "", caption: "Integration Week Entry", aspect: "16 / 9", subcategory: "organizational" },  // integration posting.mp4
+  { category: "video",   type: "video", driveId: "1wjtSuEtEYFonKa64hnn0TzcdxbG8xjz2", poster: "", caption: "PAST TERM ORGANIZATIONS", aspect: "4 / 5", subcategory: "organizational" },  // ANIMATION OUTPUT.mp4
+  { category: "video",   type: "video", driveId: "1Ocq5upDmVRbMTg9pEQCvvQrw7JP0Sr61", poster: "", caption: "Midterm Exam Good Luck Post", aspect: "4 / 5", subcategory: "organizational" },  // midterm exam goodluck message.mp4
+  { category: "video",   type: "video", driveId: "1bsfz2uf-moLrvAcyFtcl5Uyrk6jKWan6", poster: "", caption: "Top One Congratulatory Post", aspect: "4 / 5", subcategory: "organizational" },  // TOP ONE Professional Organization.mp4
+  { category: "video",   type: "video", driveId: "1jOOoNZj0zNSrDTZ7SI5DFqnHVcnaubs0", poster: "", caption: "Ninoy Aquino Holiday Pubmat", aspect: "4 / 5", subcategory: "organizational" },  // NINOY AQUINO.mp4
+  { category: "video",   type: "video", driveId: "1pjBz8ONMsNLW6TwI9EiQO9ApRJAX-GoY", poster: "", caption: "GMM 2024 - Guest Speakers", aspect: "9 / 16", subcategory: "organizational" },  // GMM 2024 _ Guest Speakers.mp4
+  { category: "video",   type: "video", driveId: "1T6sPfys80opfOKbUuXD3STOgHXkVR7W_", poster: "", caption: "SportsFest 2026 Congratulatory Post", aspect: "9 / 16", subcategory: "organizational" },  // SportsFest2026.mp4
+  { category: "video",   type: "video", driveId: "18miMERAS4O00i0g4PIgH78hWz3QY80Nh", poster: "", caption: "SCHOOL PROJECT #1", aspect: "16 / 9", subcategory: "academic" },  // SCHOOL PROJECT_SVEN PROMO VIDEO.mp4
+  { category: "video",   type: "video", driveId: "1tNFVnxwH2_ua6kerR6GK-sFIlGzjf5BU", poster: "", caption: "What is ADCON 2026?", aspect: "16 / 9", subcategory: "academic" },  // WHAT IS ADCON D2.mp4
+  { category: "video",   type: "video", driveId: "1-bJffEHlIQmMrmx1inufD-jXATI7800q", poster: "", caption: "MAD MARKS PROMOTIONAL", aspect: "9 / 16", subcategory: "academic" },  // mad marls.mp4
   
   { category: "poster", type: "image", src: "img/(TOP 1) BEEDAZLE POSTER COMPETITION.png", caption: "Top 1 Poster Competition", aspect: "5 / 5" },
   { category: "poster", type: "image", src: "img/1.jpg", caption: "SBU @125 University Concert", aspect: "5 / 5" },
