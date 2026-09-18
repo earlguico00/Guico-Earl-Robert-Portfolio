@@ -28,7 +28,6 @@ const WORK_ITEMS = [
   { category: "logos", type: "image", src: "img/past-feature.jpg", caption: "#PastAndFeature", aspect: "16 / 9" },
   { category: "logos", type: "image", src: "img/inflaties-gents.jpg", caption: "Inflaties & Gents Logo", aspect: "16 / 9" },
 
-  { category: "video",   type: "video", driveId: "1u-FJgG8JRrzZaPawGrStUH2AUdnBI_VV", poster: "", caption: "Social Media Outro", aspect: "16 / 9", subcategory: "organizational" }, //ANIMATION OUTPUT.mp4
   { category: "video",   type: "video", driveId: "1AhiqcRvy-s-CHCGvJ0DLT_vP9aKzFTW3", poster: "", caption: "LAMP 2025 Event Highlights", aspect: "16 / 9", subcategory: "organizational" },  // LAMP 2025 HIGHLIGHTS FINAL.mp4
   { category: "video",   type: "video", driveId: "1Eqpx1kL9JnmGtErZmw9ic4Gp3505vzz8", poster: "", caption: "SBJMA Forge Term Ender", aspect: "16 / 9", subcategory: "organizational" },  // FORGE TERM ENDER d7.mp4
   { category: "video",   type: "video", driveId: "1qP5lrxsbX1T3AuHLex_lXn7tc36ps5Wr", poster: "", caption: "Integration Week Entry", aspect: "16 / 9", subcategory: "organizational" },  // integration posting.mp4
